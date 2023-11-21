@@ -50,14 +50,9 @@
 
 }
 
-/* .input .age-input {
-    width: 70%;
-    outline: none;
-    border-radius: none;
-
-    margin-top: .5rem;
-
-    height: 2rem;
-    font-size: 15px;
-    padding: 0 .5rem;
-} */
+@media (max-width: 480px) {
+    .form-control {
+        width: 85%;
+        margin: 4rem 2rem 2rem;
+    }
+}

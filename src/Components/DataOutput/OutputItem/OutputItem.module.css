@@ -23,6 +23,8 @@
 
     background: #22597d;
     color: #fff;
+
+    padding: .5rem;
 }
 
 .OutputItem input {
@@ -45,4 +47,10 @@
     padding: 0 1rem;
 
     cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .OutputItem {
+        
+    }
 }

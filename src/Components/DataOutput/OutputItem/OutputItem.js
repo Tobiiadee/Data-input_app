@@ -4,7 +4,7 @@ import styles from "./OutputItem.module.css"
 const OutputItem = (props) => {
     // console.log(props.dataValue);
     const name = props.dataValue.name;    
-    const age = props.dataValue.age + "yrs";   
+    const age = props.dataValue.age + "YRS";   
 
     // console.log(name, age);
 

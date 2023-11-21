@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import DataInput from "./Components/DataInput/ValidDataInput/DataInput";
 import OutputList from "./Components/DataOutput/OutputList/OuputList";
 import style from "./App.module.css";
@@ -17,10 +17,10 @@ function App() {
   };
 
   return (
-    <div className={style.App}>
+    <Fragment className={style.App}>
       <DataInput collectInputData={inputDataHandler} />
       <OutputList data={enteredData} /> 
-    </div>
+    </Fragment>
   );
 }
 

@@ -35,6 +35,8 @@
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
+
+    height: 40px;
 }
 
 .empty-data .para {
@@ -62,4 +64,11 @@
 .para button:hover:focus {
     background-color: #22597d;
     
+}
+
+@media (max-width: 480px) {
+    .empty-data {
+        width: 80%;
+        height: 25vh;
+    }
 }
