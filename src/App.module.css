@@ -1,0 +1,13 @@
+.App {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+
+    /* padding: 1rem 0; */
+    background-color: hsl(0, 0%, 94%);
+    height: 100vh;
+    max-height: max-content;
+
+    padding-bottom: 2rem;
+}

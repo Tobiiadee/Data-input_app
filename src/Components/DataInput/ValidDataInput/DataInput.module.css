@@ -1,0 +1,63 @@
+.form-control {
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    width: 50%;
+    margin: 2rem auto ;
+
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3), -2px -2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.controls {
+    /* border: 1px solid red; */
+    /* width: max-content; */
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 1rem;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input label {
+    font-weight: 600;
+    margin-top: .5rem;
+    color: #26648E;
+    text-transform: uppercase;
+
+    font-size: 12px;
+}
+
+.input input {
+    width: 70%;
+    outline: none;
+    border: 1px solid #22597d;
+    border-radius: none;
+
+    margin-top: .5rem;
+
+    height: 2rem;
+
+    font-size: 12px;
+    padding: 0 .5rem;
+
+
+}
+
+/* .input .age-input {
+    width: 70%;
+    outline: none;
+    border-radius: none;
+
+    margin-top: .5rem;
+
+    height: 2rem;
+    font-size: 15px;
+    padding: 0 .5rem;
+} */
