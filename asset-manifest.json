@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Data-input_app/static/css/main.d974137d.css",
+    "main.js": "/Data-input_app/static/js/main.9bae0c81.js",
+    "static/js/787.d4aba7ab.chunk.js": "/Data-input_app/static/js/787.d4aba7ab.chunk.js",
+    "index.html": "/Data-input_app/index.html",
+    "main.d974137d.css.map": "/Data-input_app/static/css/main.d974137d.css.map",
+    "main.9bae0c81.js.map": "/Data-input_app/static/js/main.9bae0c81.js.map",
+    "787.d4aba7ab.chunk.js.map": "/Data-input_app/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d974137d.css",
+    "static/js/main.9bae0c81.js"
+  ]
+}
